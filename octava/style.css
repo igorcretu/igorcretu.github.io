@@ -104,7 +104,7 @@ header .head .fa-sort-down:before {
   margin: 0;
 }
 
-header span, header button {
+header span, header button, header a {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 14px;
@@ -112,12 +112,12 @@ header span, header button {
   margin: 0 7px 0 16px;
 }
 
-header span :visited, header button :visited {
+header span :visited, header button :visited, header a :visited {
   text-decoration: none;
   color: transparent;
 }
 
-header span :link, header button :link {
+header span :link, header button :link, header a :link {
   text-decoration: none;
 }
 
