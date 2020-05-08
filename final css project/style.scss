@@ -689,38 +689,156 @@ html{
 		}
 	}
 }
-@media (max-width:900px){
-	body{
+@media (max-width: 900px) {
+	
+	#people,
+	#follow,
+	#stat,
+	#video,
+	#adress {
+	  
+	  flex-direction: column;
+	  height: 100%;
+	}
+	.upper {
+	  right: 5%;
+	  bottom: 2%;
+	}
+	.head {
+	  .drop {
+		display: none;
+	  }
+	  .vis {
+		display: none;
+	  }
+	  display: inline-flex;
+	  
+	  h1 {
+		width: 1000px;
+	  }
+  button{
+		  
+	  }
+	}
+	#sec1 {
+	  background-position: bottom;
+	  div {
+		display: flex;
+		h1,
+		p {
+		  width: 300px;
+		  font-size: 20px;
+		}
+	  }
+	}
+	#steps {
+	  flex-direction: column;
+	  div {
+		  width: 100%;
+	  }
+	}
+	// }
+	#sec3 {
+	  height: 1600px;
+	  background-color: #f7eee2;
+	  align-content: center;
+	  background-image: none;
+	  .head {
+		flex-direction: column;
+		display: flex;
+		text-align: center;
+		align-items: center;
+		p,
+		h1 {
+		  width: 300px;
+		}
+	  }
+  
+	  .store {
+		height: 100%;
+		flex-direction: column;
+		// height: 100vh;
+		align-items: center;
+		background-size: cover;
+		background-color: #f7eee2;
+	  }
+	}
+	#people {
+		justify-items: center;
+	  .text {
 		display: flex;
 		flex-direction: column;
-	}
-	header{
-		width: 100%;
-		.head{
-			.drop{
-				display: none;
-				
-			}
-			span{
-				display: none;
-			}
-			button{
-				margin: 0;
-			}
-			width: 100%;
-		}
-	}
-	#sec1{
-		width: 100%;
-		h1{
-			font-size: 28px;
-		}
-		p{
-			width: 100%;
-		}
-	}
-	#steps{
-		display: flex;
+		align-items: center;
+	  }
+	  p {
+		width: 300px;
+		text-align: center;
+	  }
+	  .rec {
 		flex-direction: column;
+		align-items: center;
+		
+	  }
 	}
-}
+	#follow {
+	  .left {
+		width: 100%;
+	  }
+	  .right {
+		width: 100%;
+		height: 640px;
+		background-size: center;
+  
+		.textw {
+		  // width: 70vw;
+		  // display: flex;
+		  margin: 50px;
+		  h3 {
+			font-size: 30px;
+		  }
+		}
+	  }
+	}
+	#stat{
+		.stats{
+			flex-direction: column;
+		}
+	}
+	#video {
+	  flex-direction: column;
+	  .vid1{
+		  justify-content: center;
+		  width: 100%;
+	  }
+	  .vid2{
+		  justify-content: center;
+		  width: 100%;
+		  margin-bottom: 0px;
+		  .vid22{
+			  height: 10%;
+		  }
+	  }
+	}
+	#adress{
+	  
+	  .meet{
+		  padding-left: 0;
+		  width: 100%;
+		  text-align: center;
+	  }
+	  .contact{
+		  padding-left: 0;
+		  width: 100%;
+		  text-align: center;
+		  p{
+			  margin-left: 10px;
+			  margin-right: 10px;
+		  }
+		  form{
+			  margin-left: 10px;
+			  margin-right: 10px;
+		  }
+	  }
+  
+	}
+  }

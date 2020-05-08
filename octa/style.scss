@@ -1,7 +1,7 @@
 body {
   margin: 0 0 0 0;
-  background-color: white;
-  width: 100%;
+  
+  
 }
 header {
   position: fixed;
@@ -20,8 +20,7 @@ header {
     text-align: center;
     font-family: "Poppins", sans-serif;
     border: 1px solid white;
-
-    transition-property: all;
+    transition-property: transform, border;
     transition-duration: 1s;
     z-index: 10px;
 
@@ -45,7 +44,10 @@ header {
     }
   }
   .drop {
-    padding: 0px 0px 30px 0;
+	padding: 0px 0px 30px 0;
+	button{
+		display: none;
+	}
     span {
       position: relative;
       top: 15px;
@@ -132,9 +134,9 @@ header {
   }
 }
 #sec1 {
-  background-color: lightcoral;
   height: 100vh;
-  // background-position: center;
+  width: 100%;
+  background-position: center;
   display: flex;
   div {
     display: flex;
@@ -263,7 +265,7 @@ header {
     height: 500px;
 
     // justify-content: stretch;
-    flex-direction: row;
+    // flex-direction: row;
     justify-content: center;
     p {
       font-family: "Poppins", sans-serif;
@@ -287,6 +289,7 @@ header {
     i {
       background-color: #e3b375;
       width: 60px;
+      height: 60px;
       font-size: 60px;
       padding: 40px;
       border-radius: 100px;
@@ -335,9 +338,11 @@ header {
   }
 }
 #people {
+  width: 100%;
   background-color: white;
   display: flex;
   flex-direction: column;
+  padding-bottom: 30px;
   .text {
     text-align: center;
     .fresh {
@@ -406,6 +411,7 @@ header {
   }
 }
 #follow {
+  width: 100%;
   display: flex;
   justify-content: stretch;
   background-color: white;
@@ -424,10 +430,11 @@ header {
     width: 33%;
     margin: 0;
     background-image: url(/octa/follow.jpg);
-    background-position: left;
+    background-position: bottom;
     background-size: cover;
     .textw {
-      margin: 115px;
+	  margin: 115px;
+	  margin:50px 115px 130px 115px;
       h3 {
         font-family: "Poppins", sans-serif;
         font-size: 44px;
@@ -488,6 +495,19 @@ header {
   background-color: white;
   padding-bottom: 100px;
   padding-top: 100px;
+  flex-direction: column;
+  width: 100%;
+  .stats {
+	  display: inline-flex;
+	  justify-content: center;
+	flex-direction: row;
+	
+  }
+  .head {
+    font-style: italic;
+	font-size: 45px;
+	color: #ceab12;
+  }
   div {
     padding-left: 64px;
     padding-right: 64px;
@@ -506,11 +526,11 @@ header {
 }
 #video {
   background-color: white;
-  display: block;
-  flex-direction: column;
+  display: flex;
+  flex-direction: row;
   text-align: center;
   justify-items: center;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
   div {
   }
@@ -670,36 +690,183 @@ html {
   }
 }
 @media (max-width: 900px) {
-  body {
-    display: flex;
+	
+  #people,
+  #follow,
+  #stat,
+  #video,
+  #adress {
+    
     flex-direction: column;
+    height: 100%;
   }
-  header {
-    width: 100%;
-    .head {
-      .drop {
-        display: none;
-      }
-      span {
-        display: none;
-      }
-      button {
-        margin: 0;
-      }
-      width: 100%;
+  .upper {
+	right: 5%;
+	bottom: 2%;
+  }
+  .head {
+	  .drop{
+		 
+		  &:hover{
+			.down{
+				transform: translateY(335px);
+			}
+		  }
+		.down{
+			
+			right: 1%;
+			left: 1%;
+			top: -250px;
+			width: 88%;
+			.hbtn{
+				display: block;
+				margin-bottom:9.38px;
+				padding-left: 10px;
+				padding-right: 10px;
+				position: relative;
+				left: 50%;
+				transform: translateX(-60%);
+				&:focus{
+					outline: none;
+				}
+			}
+			h1{
+			&:focus{
+				display: none;
+			}
+		}
+		}
+	  }
+    
+    .vis {
+      display: none;
     }
+    display: inline-flex;
+    
+    
+	button{
+		display: none;
+	}
   }
   #sec1 {
-    width: 100%;
-    h1 {
-      font-size: 28px;
-    }
-    p {
-      width: 100%;
+    background-position: bottom;
+    div {
+      display: flex;
+      h1,
+      p {
+        width: 300px;
+        font-size: 20px;
+      }
     }
   }
   #steps {
-    display: flex;
     flex-direction: column;
+    div {
+		width: 100%;
+    }
+  }
+  // }
+  #sec3 {
+    height: 1600px;
+    background-color: #f7eee2;
+    align-content: center;
+    background-image: none;
+    .head {
+      flex-direction: column;
+      display: flex;
+      text-align: center;
+      align-items: center;
+      p,
+      h1 {
+        width: 300px;
+      }
+    }
+
+    .store {
+      height: 100%;
+      flex-direction: column;
+      // height: 100vh;
+      align-items: center;
+      background-size: cover;
+      background-color: #f7eee2;
+    }
+  }
+  #people {
+	  justify-items: center;
+    .text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    p {
+      width: 300px;
+      text-align: center;
+    }
+    .rec {
+      flex-direction: column;
+	  align-items: center;
+	  
+    }
+  }
+  #follow {
+    .left {
+      width: 100%;
+    }
+    .right {
+      width: 100%;
+      height: 640px;
+      background-size: center;
+
+      .textw {
+        // width: 70vw;
+        // display: flex;
+        margin: 50px;
+        h3 {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+  #stat{
+	  .stats{
+		  flex-direction: column;
+	  }
+  }
+  #video {
+	flex-direction: column;
+	.vid1{
+		justify-content: center;
+		width: 100%;
+	}
+	.vid2{
+		justify-content: center;
+		width: 100%;
+		margin-bottom: 0px;
+		.vid22{
+			height: 10%;
+		}
+	}
+  }
+  #adress{
+	
+	.meet{
+		padding-left: 0;
+		width: 100%;
+		text-align: center;
+	}
+	.contact{
+		padding-left: 0;
+		width: 100%;
+		text-align: center;
+		p{
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+		form{
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+	}
+
   }
 }
