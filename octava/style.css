@@ -144,7 +144,6 @@ header button :visited {
 #sec1 {
   background-color: lightcoral;
   height: 100vh;
-  background-position: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
