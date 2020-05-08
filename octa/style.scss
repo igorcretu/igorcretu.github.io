@@ -1,7 +1,5 @@
 body {
   margin: 0 0 0 0;
-  
-  
 }
 header {
   position: fixed;
@@ -44,10 +42,10 @@ header {
     }
   }
   .drop {
-	padding: 0px 0px 30px 0;
-	button{
-		display: none;
-	}
+    padding: 0px 0px 30px 0;
+    button {
+      display: none;
+    }
     span {
       position: relative;
       top: 15px;
@@ -433,8 +431,8 @@ header {
     background-position: bottom;
     background-size: cover;
     .textw {
-	  margin: 115px;
-	  margin:50px 115px 130px 115px;
+      margin: 115px;
+      margin: 50px 115px 130px 115px;
       h3 {
         font-family: "Poppins", sans-serif;
         font-size: 44px;
@@ -498,15 +496,14 @@ header {
   flex-direction: column;
   width: 100%;
   .stats {
-	  display: inline-flex;
-	  justify-content: center;
-	flex-direction: row;
-	
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: row;
   }
   .head {
     font-style: italic;
-	font-size: 45px;
-	color: #ceab12;
+    font-size: 45px;
+    color: #ceab12;
   }
   div {
     padding-left: 64px;
@@ -689,64 +686,59 @@ html {
     }
   }
 }
-@media (max-width: 900px) {
-	
+@media (max-width: 767px) {
   #people,
   #follow,
   #stat,
   #video,
   #adress {
-    
     flex-direction: column;
     height: 100%;
   }
   .upper {
-	right: 5%;
-	bottom: 2%;
+    right: 5%;
+    bottom: 2%;
   }
   .head {
-	  .drop{
-		 
-		  &:hover{
-			.down{
-				transform: translateY(335px);
-			}
-		  }
-		.down{
-			
-			right: 1%;
-			left: 1%;
-			top: -250px;
-			width: 88%;
-			.hbtn{
-				display: block;
-				margin-bottom:9.38px;
-				padding-left: 10px;
-				padding-right: 10px;
-				position: relative;
-				left: 50%;
-				transform: translateX(-60%);
-				&:focus{
-					outline: none;
-				}
-			}
-			h1{
-			&:focus{
-				display: none;
-			}
-		}
-		}
-	  }
-    
+    .drop {
+      &:hover {
+        .down {
+          transform: translateY(335px);
+        }
+      }
+      .down {
+        right: 1%;
+        left: 1%;
+        top: -250px;
+        width: 88%;
+        .hbtn {
+          display: block;
+          margin-bottom: 9.38px;
+          padding-left: 10px;
+          padding-right: 10px;
+          position: relative;
+          left: 50%;
+          transform: translateX(-60%);
+          &:focus {
+            outline: none;
+          }
+        }
+        h1 {
+          &:focus {
+            display: none;
+          }
+        }
+      }
+    }
+
     .vis {
       display: none;
     }
     display: inline-flex;
-    
-    
-	button{
-		display: none;
-	}
+
+    button {
+      display: none;
+    }
   }
   #sec1 {
     background-position: bottom;
@@ -762,7 +754,7 @@ html {
   #steps {
     flex-direction: column;
     div {
-		width: 100%;
+      width: 100%;
     }
   }
   // }
@@ -792,7 +784,7 @@ html {
     }
   }
   #people {
-	  justify-items: center;
+    justify-items: center;
     .text {
       display: flex;
       flex-direction: column;
@@ -804,8 +796,7 @@ html {
     }
     .rec {
       flex-direction: column;
-	  align-items: center;
-	  
+      align-items: center;
     }
   }
   #follow {
@@ -827,46 +818,44 @@ html {
       }
     }
   }
-  #stat{
-	  .stats{
-		  flex-direction: column;
-	  }
+  #stat {
+    .stats {
+      flex-direction: column;
+    }
   }
   #video {
-	flex-direction: column;
-	.vid1{
-		justify-content: center;
-		width: 100%;
-	}
-	.vid2{
-		justify-content: center;
-		width: 100%;
-		margin-bottom: 0px;
-		.vid22{
-			height: 10%;
-		}
-	}
+    flex-direction: column;
+    .vid1 {
+      justify-content: center;
+      width: 100%;
+    }
+    .vid2 {
+      justify-content: center;
+      width: 100%;
+      margin-bottom: 0px;
+      .vid22 {
+        height: 10%;
+      }
+    }
   }
-  #adress{
-	
-	.meet{
-		padding-left: 0;
-		width: 100%;
-		text-align: center;
-	}
-	.contact{
-		padding-left: 0;
-		width: 100%;
-		text-align: center;
-		p{
-			margin-left: 10px;
-			margin-right: 10px;
-		}
-		form{
-			margin-left: 10px;
-			margin-right: 10px;
-		}
-	}
-
+  #adress {
+    .meet {
+      padding-left: 0;
+      width: 100%;
+      text-align: center;
+    }
+    .contact {
+      padding-left: 0;
+      width: 100%;
+      text-align: center;
+      p {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      form {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+    }
   }
 }

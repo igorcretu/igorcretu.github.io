@@ -833,7 +833,7 @@ html {
           transform: rotate(-50deg);
 }
 
-@media (max-width: 900px) {
+@media (max-width: 767px) {
   #people,
   #follow,
   #stat,
