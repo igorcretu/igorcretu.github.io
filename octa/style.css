@@ -148,7 +148,7 @@ header button :visited {
   display: -ms-flexbox;
   display: flex;
   background-size: cover;
-  background-image: url("/octava/back.jpg");
+  background-image: url("/octa/back.jpg");
 }
 
 #sec1 div {
@@ -271,7 +271,7 @@ header button :visited {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 50px 0 50px 0;
-  background-image: url(/octava/backgr.jpg);
+  background-image: url(/octa/backgr.jpg);
   background-size: cover;
 }
 
@@ -495,7 +495,7 @@ header button :visited {
   display: inline-block;
   width: 33%;
   margin: 0;
-  background-image: url(/octava/follow.jpg);
+  background-image: url(/octa/follow.jpg);
   background-position: left;
   background-size: cover;
   font-family: 'Poppins', sans-serif;
@@ -758,7 +758,7 @@ html {
 .upper .up {
   border: 1px solid #ceab12;
   background-color: #ceab12;
-  background-image: url(/octava/up.jpg);
+  background-image: url(/octa/up.jpg);
   background-size: cover;
   border-radius: 50px;
   width: 50px;
