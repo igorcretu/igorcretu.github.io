@@ -1,5 +1,6 @@
 body {
   margin: 0 0 0 0;
+  z-index: 1;
 }
 
 header {
@@ -9,6 +10,7 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  z-index: 50;
 }
 
 header .down {
@@ -28,7 +30,7 @@ header .down {
   transition-property: transform, border, -webkit-transform;
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
-  z-index: 10px;
+  z-index: 100;
 }
 
 header .down h1 {
