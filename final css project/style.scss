@@ -3,6 +3,7 @@ body{
 	margin: 0 0 0 0;
 	background-color: white;
 	width: 100%;
+
 }
 header{
 	position: fixed;;
@@ -689,7 +690,12 @@ html{
 	}
 }
 @media (max-width:900px){
+	body{
+		display: flex;
+		flex-direction: column;
+	}
 	header{
+		width: 100%;
 		.head{
 			.drop{
 				display: none;
@@ -701,11 +707,20 @@ html{
 			button{
 				margin: 0;
 			}
+			width: 100%;
 		}
 	}
 	#sec1{
+		width: 100%;
 		h1{
 			font-size: 28px;
 		}
-	  }
+		p{
+			width: 100%;
+		}
+	}
+	#steps{
+		display: flex;
+		flex-direction: column;
+	}
 }

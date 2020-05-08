@@ -748,6 +748,21 @@ html {
 }
 
 @media (max-width: 900px) {
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header {
+    width: 100%;
+  }
+  header .head {
+    width: 100%;
+  }
   header .head .drop {
     display: none;
   }
@@ -757,7 +772,22 @@ html {
   header .head button {
     margin: 0;
   }
+  #sec1 {
+    width: 100%;
+  }
   #sec1 h1 {
     font-size: 28px;
+  }
+  #sec1 p {
+    width: 100%;
+  }
+  #steps {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
