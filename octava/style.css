@@ -144,11 +144,12 @@ header button :visited {
 #sec1 {
   background-color: lightcoral;
   height: 100vh;
+  background-position: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   background-size: cover;
-  background-image: url("https://lh3.googleusercontent.com/SAqNfROoHptUQ6T3CStlkhbMvJI3nIB4O3THQJfkdBIO-o0MsCHmNebJhjB8vl4r_rDh40zD3XENNR5Vlruu0hA6CdeoKye7jjneUAGLXIFnjIaOe5doz2NO2Fyx1T253aF07unDlzY3pQXoWWSOvOtYlm8tL8jmAu7hrP0hBnuvseMFPIgV6qlBgCeSeTqq1TQFnBXZfTb-MhZrkTz1-5Ribr5DBfuKFPWDO7fcd_Zex7NK7cazfD4bk6QFnDMfxlftrdHLUQ_dP3eg5n8F2nyaJi7GGhLUw3JYLbUm9_D57iYiB7HndNdAbmPtR0OiuXdYG3ByUuMy6uoZpuoMIiEqSYZLPt2iZUjIWRiBSJFXdUUjNFeBRmoiSQ6InOnciMwn-J9AU9xjtbrRpqJu0iCK9KNJqNMpgBK9zZiATg3QBG3wgQCblKiFtjWwoF9LkqHIqPBEMJ-w2SaqH-bIHZmcfNPtHwQ_WiQFIqFecnnumw3UPOjn1UHHaKUzcft3GRAJQ6fvJVfw7cR8nFvJiVafZjuYGliBP47Lu8XcMFGiwbWq2poF9j7aWfM4Fn7k-_RYZdYSzE6XB34ORhOLe3qgRB1JoVYIR30fU_Kaxrl957tVuex9Q-RvzhXh18mGEhtMuP7Lhe_h7JruF1-XtulbSWneuVwSslVGi_qaEZR4sP2Ak-DinvI=w1316-h987-no?authuser=0");
+  background-image: url("/octava/IMG_20190420_182109_Bokeh.jpg");
 }
 
 #sec1 div {
