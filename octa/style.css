@@ -26,8 +26,8 @@ header .down {
   border: 1px solid white;
   -webkit-transition-property: all;
   transition-property: all;
-  -webkit-transition-duration: 2s;
-          transition-duration: 2s;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
   z-index: 10px;
 }
 
@@ -102,6 +102,13 @@ header .head .fa-sort-down:before {
   right: 10px;
   padding-left: 5px;
   margin: 0;
+}
+
+header .head .fa-sort-down:before span:link,
+header .head .fa-sort-down:before a:link {
+  color: black;
+  -webkit-text-decoration: black;
+          text-decoration: black;
 }
 
 header span,

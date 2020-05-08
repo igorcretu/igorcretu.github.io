@@ -22,7 +22,7 @@ header {
     border: 1px solid white;
 
     transition-property: all;
-    transition-duration: 2s;
+    transition-duration: 1s;
     z-index: 10px;
 
     h1 {
@@ -85,6 +85,13 @@ header {
 
       padding-left: 5px;
       margin: 0;
+      span,
+      a {
+        &:link {
+          color: black;
+          text-decoration: black;
+        }
+      }
     }
   }
   span,
