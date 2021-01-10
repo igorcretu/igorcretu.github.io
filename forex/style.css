@@ -229,7 +229,7 @@ body #site {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1365px) {
+@media (min-width: 1024px) and (max-width: 1365px) {
   body {
     margin: 0;
     background-image: url(images/bg.gif);
@@ -240,7 +240,7 @@ body #site {
     width: 100vw;
   }
   #sec1 {
-    height: 52vh;
+    height: 700px;
   }
   #sec1 .name {
     margin-top: 20%;
@@ -258,6 +258,134 @@ body #site {
   }
   #sec1 .container {
     margin-top: 2%;
+  }
+  #sec1 .container .grid img {
+    width: 18vw;
+    margin-left: 3vw;
+  }
+  #sec2 h1 {
+    font-size: 4vw;
+  }
+  #sec2 p {
+    font-size: 3vw;
+  }
+  #sec3 h1 {
+    font-size: 4vw;
+    padding: 20px 5vw 20px 5vw;
+  }
+  #sec3 .bonus {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  #sec3 .bonus div {
+    width: 19vw;
+    margin: 5vw 3vw 5vw 3vw;
+  }
+  #sec3 .bonus img {
+    width: 12vw;
+    margin-left: 4.5vw;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 820px) {
+  body {
+    margin: 0;
+    background-image: url(images/bg.gif);
+  }
+  body #site {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100vw;
+  }
+  #sec1 {
+    height: 52vh;
+  }
+  #sec1 .name {
+    margin-top: 15%;
+    width: 50%;
+    height: 14%;
+  }
+  #sec1 .name h1 {
+    font-size: 3vw;
+    margin-top: 8px;
+  }
+  #sec1 .name h3 {
+    font-size: 3vw;
+    text-align: center;
+    margin: 0;
+  }
+  #sec1 .container {
+    margin-top: 5%;
+    width: 52vw;
+  }
+  #sec1 .container .grid img {
+    width: 18vw;
+    margin-left: 3vw;
+  }
+  #sec2 h1 {
+    font-size: 4vw;
+  }
+  #sec2 p {
+    font-size: 3vw;
+  }
+  #sec3 h1 {
+    font-size: 4vw;
+    padding: 20px 5vw 20px 5vw;
+  }
+  #sec3 .bonus {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  #sec3 .bonus div {
+    width: 19vw;
+    margin: 5vw 3vw 5vw 3vw;
+  }
+  #sec3 .bonus img {
+    width: 12vw;
+    margin-left: 4.5vw;
+  }
+}
+
+@media (min-width: 812px) and (max-width: 1023px) {
+  body {
+    margin: 0;
+    background-image: url(images/bg.gif);
+  }
+  body #site {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100vw;
+  }
+  #sec1 {
+    height: 147vh;
+  }
+  #sec1 .name {
+    margin-top: 15%;
+    width: 50%;
+    height: 14%;
+  }
+  #sec1 .name h1 {
+    font-size: 3vw;
+    margin-top: 8px;
+  }
+  #sec1 .name h3 {
+    font-size: 3vw;
+    text-align: center;
+    margin: 0;
+  }
+  #sec1 .container {
+    margin-top: 5%;
+    width: 52vw;
   }
   #sec1 .container .grid img {
     width: 18vw;
