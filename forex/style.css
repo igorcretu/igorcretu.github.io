@@ -1,0 +1,294 @@
+body {
+  margin: 0;
+  background-image: url(images/bg.gif);
+}
+
+body #site {
+  margin-left: 21%;
+  margin-right: 21%;
+  width: 58%;
+}
+
+#sec1 {
+  margin: 0;
+  background-image: url(images/shapka.jpg);
+  height: 40vw;
+  background-size: cover;
+}
+
+#sec1 .name {
+  background-color: white;
+  display: inline-block;
+  width: 33.7%;
+  height: 11%;
+  margin-top: 3%;
+}
+
+#sec1 .name h1, #sec1 .name h3 {
+  padding: 0;
+}
+
+#sec1 .name h1 {
+  margin-top: 14px;
+  text-align: center;
+  margin-bottom: 0;
+  font-family: Palatino Linotype Regular;
+  color: #252b5b;
+  font-size: 1.15vw;
+}
+
+#sec1 .name h3 {
+  text-align: left;
+  margin-left: 9.5%;
+  font-size: 0.78vw;
+  margin-top: 0;
+  color: black;
+  font-weight: 100;
+}
+
+#sec1 .container {
+  margin-top: 20%;
+  margin-left: 3%;
+  background-image: url(images/forexnodeposit1_01_03.png);
+  background-size: cover;
+  height: 38.8%;
+  width: 49%;
+}
+
+#sec1 .container .grid {
+  padding-top: 15%;
+  margin-left: 4%;
+}
+
+#sec1 .container .grid img {
+  margin: 0.5vw;
+  margin-left: 2.5vw;
+  width: 9.2vw;
+  height: auto;
+}
+
+#sec2 {
+  background-color: white;
+  margin: 0;
+}
+
+#sec2 h1, #sec2 p {
+  margin: 0;
+  padding: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 100;
+}
+
+#sec2 h1 {
+  font-size: 2.1vw;
+}
+
+#sec2 p {
+  font-size: 1vw;
+}
+
+#sec3 {
+  margin: 0;
+  background-color: #1E285D;
+}
+
+#sec3 div {
+  margin: 0;
+}
+
+#sec3 .copy {
+  background-color: white;
+  text-align: center;
+}
+
+#sec3 .copy h3 {
+  padding: 30px 0 30px 0;
+  font-weight: 100;
+}
+
+#sec3 h1 {
+  color: white;
+  font-weight: 100;
+  text-align: center;
+  margin: 0;
+  padding: 20px 100px 20px 100px;
+  font-weight: 100;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.7vw;
+}
+
+#sec3 h3 {
+  margin: 0;
+}
+
+#sec3 .bonus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#sec3 .bonus div {
+  background-size: cover;
+  width: 10vw;
+  margin: 2vw 1.1vw 2vw 1.1vw;
+}
+
+#sec3 .bonus img {
+  padding-top: 85%;
+  margin-left: 1.5vw;
+  margin-bottom: 15%;
+  width: 7vw;
+}
+
+#sec3 .flex1 {
+  background-image: url(images/fortfinancialservices_bonus35.png);
+}
+
+#sec3 .flex2 {
+  background-image: url(images/fxopen_bonus10.png);
+}
+
+#sec3 .flex3 {
+  background-image: url(images/roboforex_bonus30.png);
+}
+
+#sec3 .flex4 {
+  background-image: url(images/tickmill_bonus30.png);
+}
+
+@media (max-width: 767px) {
+  body {
+    margin: 0;
+    background-image: url(images/bg.gif);
+  }
+  body #site {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100vw;
+  }
+  #sec1 {
+    background-image: url(images/shapka2.jpg);
+    height: 205vw;
+  }
+  #sec1 .name {
+    margin-top: 30%;
+    width: 50%;
+    height: 9%;
+  }
+  #sec1 .name h1 {
+    font-size: 4vw;
+    margin-top: 8px;
+  }
+  #sec1 .name h3 {
+    font-size: 3vw;
+    text-align: center;
+    margin: 0;
+  }
+  #sec1 .container {
+    margin-top: 75%;
+    width: 80%;
+    height: 24.8%;
+    padding-right: 13%;
+  }
+  #sec1 .container .grid {
+    width: 85vw;
+    margin-left: 6vw;
+  }
+  #sec1 .container .grid img {
+    width: 37vw;
+  }
+  #sec2 h1 {
+    font-size: 8vw;
+  }
+  #sec2 p {
+    font-size: 5vw;
+  }
+  #sec3 h1 {
+    font-size: 6vw;
+    padding: 20px 8vw 20px 8vw;
+  }
+  #sec3 .bonus {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  #sec3 .bonus div {
+    width: 37vw;
+    margin: 5vw 3vw 5vw 3vw;
+  }
+  #sec3 .bonus img {
+    width: 30vw;
+    margin-left: 4.5vw;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1365px) {
+  body {
+    margin: 0;
+    background-image: url(images/bg.gif);
+  }
+  body #site {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100vw;
+  }
+  #sec1 {
+    height: 52vh;
+  }
+  #sec1 .name {
+    margin-top: 20%;
+    width: 50%;
+    height: 14%;
+  }
+  #sec1 .name h1 {
+    font-size: 3vw;
+    margin-top: 8px;
+  }
+  #sec1 .name h3 {
+    font-size: 3vw;
+    text-align: center;
+    margin: 0;
+  }
+  #sec1 .container {
+    margin-top: 2%;
+  }
+  #sec1 .container .grid img {
+    width: 18vw;
+    margin-left: 3vw;
+  }
+  #sec2 h1 {
+    font-size: 4vw;
+  }
+  #sec2 p {
+    font-size: 3vw;
+  }
+  #sec3 h1 {
+    font-size: 4vw;
+    padding: 20px 5vw 20px 5vw;
+  }
+  #sec3 .bonus {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  #sec3 .bonus div {
+    width: 19vw;
+    margin: 5vw 3vw 5vw 3vw;
+  }
+  #sec3 .bonus img {
+    width: 12vw;
+    margin-left: 4.5vw;
+  }
+}
+/*# sourceMappingURL=style.css.map */
