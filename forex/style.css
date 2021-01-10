@@ -386,6 +386,7 @@ body #site {
   #sec1 .container {
     margin-top: 5%;
     width: 52vw;
+    margin-left: 2%;
   }
   #sec1 .container .grid img {
     width: 18vw;
